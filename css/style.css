@@ -1,0 +1,51 @@
+/* CSS by Shady Salem https://codepen.io/xunnn/pen/yEmMbm */
+h1 {
+    text-align: center;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    margin: 5px auto;
+}
+
+.vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* Project CSS */
+
+button {
+    padding: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 
+#board {
+    width: 80%;
+    margin: auto;
+} */
+
+#board .line {
+    text-align: center;
+}

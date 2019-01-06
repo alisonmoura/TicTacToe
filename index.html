@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<script src="js/square.js"></script>
-<script src="js/board.js"></script>
-<script src="js/player.js"></script>
-<script src="js/tttgame.js"></script>
-<script src="js/gamestarter.js"></script>
+    <main id="app">
+        <section id="board">
+            <table>
+                <tr>
+                    <td>
+                        <button>X</button>
+                    </td>
+                    <td class="vert">
+                        <button>O</button>
+                    </td>
+                    <td>
+                        <button>O</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="hori">
+                        <button>X</button>
+                    </td>
+                    <td class="vert hori">
+                        <button>X</button>
+                    </td>
+                    <td class="hori">
+                        <button>X</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>X</button>
+                    </td>
+                    <td class="vert">
+                        <button>X</button>
+                    </td>
+                    <td>
+                        <button>X</button>
+                    </td>
+                </tr>
+            </table>
+            <!-- <div class="line">
+                <button>1</button>
+                <button>1</button>
+            </div>
+            <div class="line">
+                <button>1</button>
+                <button>1</button>
+            </div>
+            <div class="line">
+                <button>1</button>
+                <button>1</button>
+            </div> -->
+        </section>
+    </main>
+
+    <script src="js/square.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/tttgame.js"></script>
+    <script src="js/gamestarter.js"></script>
 </body>
+
 </html>
