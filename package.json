@@ -1,0 +1,24 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "A TicTacToe game in HTML, CSS and JavaScript Application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisonmoura/TicTacToe.git"
+  },
+  "keywords": [
+    "TicTacToe",
+    "TicTacToe",
+    "JavaScript"
+  ],
+  "author": "Alison Moura <alison.oghino@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisonmoura/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/alisonmoura/TicTacToe#readme"
+}
